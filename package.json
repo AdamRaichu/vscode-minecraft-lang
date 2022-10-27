@@ -1,1 +1,29 @@
-
+{
+  "name": "minecraft-lang",
+  "displayName": "Minecraft .lang Colorizer",
+  "description": "An extension which colorizes lang files.",
+  "publisher": "adamraichu",
+  "authors": "AdamRaichu",
+  "version": "1.0.0",
+  "contributes": {
+    "languages": [
+      {
+        "id": "mc-lang",
+        "aliases": [
+          "lang"
+        ],
+        "extensions": [
+          "lang"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mc-lang",
+        "scopeName": "source.mc-lang",
+        "path": "./syntaxes/mc-lang.tmLanguage.json"
+      }
+    ]
+  }
+}
