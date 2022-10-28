@@ -5,6 +5,7 @@
   "publisher": "adamraichu",
   "authors": "AdamRaichu",
   "version": "1.0.0",
+  "browser": "./extension.ts",
   "contributes": {
     "languages": [
       {
