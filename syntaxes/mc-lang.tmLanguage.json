@@ -47,7 +47,7 @@
         },
         {
           "match": ".",
-          "name": "entity.other.inherited-class.values.mc-lang"
+          "name": "string.mc-lang"
         }
       ]
     }
