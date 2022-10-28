@@ -16,6 +16,7 @@
   },
   "version": "1.0.0",
   "browser": "./extension.ts",
+  "main": "./extension.ts",
   "activationEvents": [
     "onLanguage:mc-lang"
   ],
