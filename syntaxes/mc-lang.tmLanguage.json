@@ -19,11 +19,11 @@
     "keys": {
       "name": "entity.other.attribute-name.keys.mc-lang",
       "begin": "^",
-      "end": "=",
+      "end": "\\=",
       "patterns": [
         {
           "match": "[A-Za-z0-9]+:[A-Za-z0-9]+",
-          "name": "entity.name.namespace.mc-lang"
+          "name": "entity.name.type.class.mc-lang"
         }
       ]
     },
