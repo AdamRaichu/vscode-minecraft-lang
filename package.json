@@ -3,6 +3,7 @@
   "displayName": "Minecraft .lang Colorizer",
   "description": "An extension which colorizes lang files.",
   "publisher": "adamraichu",
+  "icon": "logo.png",
   "authors": "AdamRaichu",
   "author": {
     "name": "AdamRaichu"
