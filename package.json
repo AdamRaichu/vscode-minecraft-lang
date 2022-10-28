@@ -6,6 +6,9 @@
   "authors": "AdamRaichu",
   "version": "1.0.0",
   "browser": "./extension.ts",
+  "activationEvents": [
+    "onLanguage:mc-lang"
+  ],
   "engines": {
     "vscode": "^1.22.0"
   },
