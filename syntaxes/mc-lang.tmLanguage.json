@@ -14,10 +14,10 @@
   "repository": {
     "comment": {
       "match": "^#(.*)$|^//(.*)$",
-      "name": "entity.other.attribute-name.keys.lang"
+      "name": "comment.line.number-sign.lang"
     },
     "keys": {
-      "name": "entity.other.attribute",
+      "name": "entity.other.attribute-name.keys.lang",
       "match": "^[^=]*(?==)"
     },
     "values": {
