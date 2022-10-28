@@ -6,6 +6,9 @@
   "authors": "AdamRaichu",
   "version": "1.0.0",
   "browser": "./extension.ts",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
   "contributes": {
     "languages": [
       {
