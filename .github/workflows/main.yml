@@ -1,0 +1,11 @@
+name: Run commands
+on: [workflow_dispatch]
+jobs:
+  run:
+    runs-on: windows-latest
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.5.1
+      - id: run-1
+        run: |
+          npm i -g vsce package
