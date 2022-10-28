@@ -14,10 +14,10 @@
   "repository": {
     "comment": {
       "match": "^#(.*)$|^//(.*)$",
-      "name": "mc-lang.comment"
+      "name": "entity.other.attribute-name.keys.lang"
     },
     "keys": {
-      "name": "mc-lang.key",
+      "name": "entity.other.attribute",
       "match": "^[^=]*(?==)"
     },
     "values": {
@@ -32,7 +32,7 @@
         },
         {
           "match": "§[0-9a-fk-or]{1}",
-          "name": "mc-lang.style-code"
+          "name": "entity.name.function.values.lang"
         },
         {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
