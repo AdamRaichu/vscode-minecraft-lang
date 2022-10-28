@@ -32,7 +32,7 @@
         },
         {
           "match": "§[0-9a-gk-or]{1}",
-          "name": "entity.name.function.values.lang"
+          "name": "keyword.values.lang"
         },
         {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
