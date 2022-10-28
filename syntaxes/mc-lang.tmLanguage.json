@@ -39,7 +39,7 @@
         },
         {
           "match": "§[0-9a-gk-or]{1}",
-          "name": "keyword.values.mc-lang"
+          "name": "entity.name.function.mc-lang"
         },
         {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
