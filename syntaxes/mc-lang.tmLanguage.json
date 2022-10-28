@@ -14,33 +14,37 @@
   "repository": {
     "comment": {
       "match": "^#(.*)$|^//(.*)$",
-      "name": "comment.line.number-sign.lang"
+      "name": "comment.line.number-sign.mc-lang"
     },
     "keys": {
-      "name": "entity.other.attribute-name.keys.lang",
+      "name": "entity.other.attribute-name.keys.mc-lang",
       "match": "^[^=]*(?==)"
     },
     "values": {
       "begin": "\\=",
       "end": "$",
-      "name": "variable.parameter.values.lang",
+      "name": "variable.parameter.values.mc-lang",
       "patterns": [
         {
           "begin": "<",
           "end": ">",
-          "name": "entity.name.function.values.lang"
+          "name": "entity.name.function.values.mc-lang"
         },
         {
           "match": "§[0-9a-gk-or]{1}",
-          "name": "keyword.values.lang"
+          "name": "keyword.values.mc-lang"
         },
         {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
-          "name": "entity.name.tag.values.lang"
+          "name": "entity.name.tag.values.mc-lang"
         },
         {
           "match": ".",
-          "name": "entity.other.inherited-class.values.lang"
+          "name": "entity.other.inherited-class.values.mc-lang"
+        },
+        {
+          "match": "[A-Za-z0-9]+:[A-Za-z0-9]+",
+          "name": "entity.name.namespace.mc-lang"
         }
       ]
     }
