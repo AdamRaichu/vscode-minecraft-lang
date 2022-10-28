@@ -15,7 +15,7 @@ jobs:
       - name: package with vsce
         run: |
           npm install -g vsce
-          vsce package
+          vsce package --target web
       - name: run pester tests
         shell: pwsh
         run: |
