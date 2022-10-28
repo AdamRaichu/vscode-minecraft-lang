@@ -7,6 +7,9 @@
   "author": {
     "name": "AdamRaichu"
   },
+  "categories": [
+    "Programming Languages"
+  ],
   "version": "1.0.0",
   "browser": "./extension.ts",
   "activationEvents": [
