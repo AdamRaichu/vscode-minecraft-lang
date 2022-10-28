@@ -12,12 +12,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
- 
-      - name: npm install, build and test
-        run: |
-          npm install
-          npm run build
-          npm test
       - name: package with vsce
         run: |
           npm install -g vsce
