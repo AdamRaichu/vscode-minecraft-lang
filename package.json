@@ -4,6 +4,9 @@
   "description": "An extension which colorizes lang files.",
   "publisher": "adamraichu",
   "authors": "AdamRaichu",
+  "author": {
+    "name": "AdamRaichu"
+  },
   "version": "1.0.0",
   "browser": "./extension.ts",
   "activationEvents": [
