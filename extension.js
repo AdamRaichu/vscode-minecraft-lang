@@ -4,6 +4,6 @@ const vscode = require("vscode");
 
 vscode.languages.registerHoverProvider("mc-lang", {
   provideHover(document, position, token) {
-    return new Hover("I am a hover!");
+    return new vscode.Hover("I am a hover!");
   },
 });
