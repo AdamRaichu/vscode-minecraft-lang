@@ -4,6 +4,7 @@ const vscode = require("vscode");
 
 vscode.languages.registerHoverProvider("mc-lang", {
   provideHover(document, position, token) {
-    return new vscode.Hover("I am a hover!");
+    var word = document.getText(document.getWordRangeAtPosition(position));
+    return new vscode.Hover(`This word is "${word}".`);
   },
 });
