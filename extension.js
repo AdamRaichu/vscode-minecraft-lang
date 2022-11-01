@@ -187,6 +187,48 @@ var index1 = {
   seedPicker:
     "`seedPicker` contains the texts shown when picking a preset seed",
   selectServer: "Texts shown on the server tab under the play menu",
+  selectWorld:
+    "`selectWorld` contains labels for Worlds menu and edit world menu",
+  selectTemplate:
+    "`selectTemplate` contains the texts shown when creating a new world from template",
+  sign: "`sign.edit` = Edit sign message",
+  skin: "`skin` contains the names of skins and create skin button",
+  skinpack: "`skinpack.Education` = Education Edition Skins",
+  skins: "`skins` contains texts shown in the dressing room",
+  soundCategory:
+    "`soundCategory` contains generic sound type categories. See vanilla files",
+  stat: "Contains names of statistics",
+  stats: "Contains the names of the statistics categories",
+  start: "`start.beta.icon` = Beta",
+  store: "`store` contains texts shown in the store",
+  stream:
+    "`stream` contains texts seen when streaming through a connected twitch account",
+  profanity_filter:
+    "`profanity_filter` appears to contain labels for a profanity filter",
+  terms_and_conditions:
+    "`terms_and_conditions.viewTermsAndConditions` contains a link to https://minecraft.net/terms ",
+  tipped_arrow: "`tipped_arrow` contains the names of tipped arrows",
+  structure_block: "contains the labels for the structure block menu",
+  "3d_export": "`3d_export` appears to be a deprecated feature",
+  title: "`title` contains error messages for using an outdated graphics card",
+  editorMode: "`editorMode.text` = coming soon",
+  translation: "`translation` keys are used for tests. **DO NOT EDIT**",
+  typeface: "`typeface` contains the names of typefaces available for chat",
+  worldConversionErrorPrompt:
+    "`worldConversionErrorPrompt` contains error messages that occur when converting a world",
+  worldError:
+    "`worldError` contains error messages that occur when trying to open a world",
+  userData:
+    "`userData` texts contain error messages that occur when recovering user data",
+  trial: "`trial` contains texts that appear when playing the trial version",
+  ratingPopUp: "`ratingPopUp.title` = Are you enjoying Minecraft?`",
+  feedbackPopup: "`feedbackPopup.title` = Do you have any feedback for us?",
+  tutorial: "`tutorial` is labeled **Edu Tutorial strings** in the source code",
+  utility: "`utility` contains keys which are labeled Zip File and PDF file",
+  verification:
+    "`verification` contains error messages that occur when MC can't verify user license",
+  autosave: "`autosave` contains informative keys relating to autosaving",
+  xbox: "`xbox` is probably related to xbox in some way",
 };
 
 vscode.languages.registerHoverProvider("mc-lang", {
