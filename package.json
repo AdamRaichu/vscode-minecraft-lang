@@ -14,8 +14,9 @@
   "repository": {
     "url": "https://github.com/AdamRaichu/vscode-minecraft-lang"
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "browser": "/extension.js",
+  "main": "/extension.js",
   "activationEvents": [
     "onLanguage:mc-lang"
   ],
