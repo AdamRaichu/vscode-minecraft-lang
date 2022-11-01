@@ -12,7 +12,11 @@
     "Programming Languages"
   ],
   "repository": {
-    "url": "https://github.com/AdamRaichu/vscode-minecraft-lang"
+    "url": "https://github.com/AdamRaichu/vscode-minecraft-lang",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdamRaichu/vscode-minecraft-lang/issues"
   },
   "version": "2.0.0",
   "browser": "/extension.js",

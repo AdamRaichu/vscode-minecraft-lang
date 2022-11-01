@@ -24,6 +24,24 @@ var index1 = {
   chat: "`chat` keys contain text for chat settings, game messages, etc.",
   chestScreen:
     "`chestScreen` keys control inventory labels in chests and large chests",
+  chooseRealmScreen:
+    "`choosRealmScreen` controls text in Realms menu in Play menu",
+  customTemplatesScreen:
+    "`customTemplatesScreen` has one key, which controls templates",
+  craftingScreen: "`craftingScreen` controls names of tabs",
+  credits: "`credits.skip` controls name of skip button when showing credits",
+  cauldronScreen: '`cauldronScreen.header` is set to "Cauldron" by default.',
+  codeScreen:
+    "`codeScreen` appears to set controls for a code editor, but I have no idea which one",
+  color: "`color` controls display names of colors",
+  commandBlockScreen:
+    "`commandBlockScreen` controls text in the command block menu",
+  seargeSays: "I have no idea what the heck `seargeSays` is for man",
+  commandBlock:
+    "`commandBlock` controls the default name of a command block in chat (`@`), as well as it's `genericName` (`Command Block`)",
+  commands:
+    "`commands` contains descriptions of commands shown in chat autocomplete, as well as success and error messages",
+  connect: "`connect` controls messages shown when connecting to a server",
 };
 var index2 = {};
 
