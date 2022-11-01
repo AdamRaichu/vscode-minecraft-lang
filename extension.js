@@ -42,8 +42,19 @@ var index1 = {
   commands:
     "`commands` contains descriptions of commands shown in chat autocomplete, as well as success and error messages",
   connect: "`connect` controls messages shown when connecting to a server",
+  connect_gamepad:
+    "`connect_gamepad` appears to be used for text whown when connecting controllers",
+  gamepad_disconnect:
+    "`gamepad_disconnect` seems to control text shown when a control unexpectedly disconnects",
+  container:
+    "`container` controlls labels of interactive blocks (e.g. beacon, hopper, stonecutter, etc.) when interacting",
+  controller:
+    "`controller` texts control action labels in inventory and modifying keybinds",
+  course: "`course` is used by EE courses, whatever those are",
+  crafting:
+    "I have never seen the messages in `crafting` in normal gameplay, but they seem to be error messages",
+  createWorld: "",
 };
-var index2 = {};
 
 vscode.languages.registerHoverProvider("mc-lang", {
   provideHover(document, position, token) {
@@ -55,13 +66,6 @@ vscode.languages.registerHoverProvider("mc-lang", {
         return new vscode.Hover(`**${word}**\n\n${index1[word]}`);
       } else {
         return new vscode.Hover("No information available");
-      }
-    } else {
-      if (word in index2) {
-        // Anything else
-        return new vscode.Hover(
-          `**${word}**\n\n*Hover hints do not yet support non-primary keys.*`
-        );
       }
     }
   },
