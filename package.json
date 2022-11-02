@@ -29,7 +29,7 @@
     "onLanguage:mc-lang"
   ],
   "engines": {
-    "vscode": "^1.61.0"
+    "vscode": "^1.63.0"
   },
   "contributes": {
     "languages": [
