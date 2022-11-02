@@ -1,5 +1,6 @@
 {
   "name": "Minecraft Lang",
+  "scopeName": "source.mc-lang",
   "patterns": [
     {
       "include": "#comment"
@@ -34,7 +35,7 @@
       "patterns": [
         {
           "begin": "<",
-          "end": ">",
+          "end": ">|$",
           "name": "entity.name.function.values.mc-lang"
         },
         {
@@ -51,6 +52,5 @@
         }
       ]
     }
-  },
-  "scopeName": "source.mc-lang"
+  }
 }

@@ -12,16 +12,24 @@
     "Programming Languages"
   ],
   "repository": {
-    "url": "https://github.com/AdamRaichu/vscode-minecraft-lang"
+    "url": "https://github.com/AdamRaichu/vscode-minecraft-lang",
+    "type": "git"
   },
-  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/AdamRaichu/vscode-minecraft-lang/issues"
+  },
+  "galleryBanner": {
+    "color": "#1f2227",
+    "theme": "dark"
+  },
+  "version": "2.0.0",
   "browser": "/extension.js",
   "main": "/extension.js",
   "activationEvents": [
     "onLanguage:mc-lang"
   ],
   "engines": {
-    "vscode": "^1.61.0"
+    "vscode": "^1.63.0"
   },
   "contributes": {
     "languages": [
