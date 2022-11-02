@@ -18,7 +18,7 @@ jobs:
       - name: package with vsce
         run: |
           npm install -g vsce
-          vsce package --target web
+          ${{ inputs.command }}
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.1.4
         with:
