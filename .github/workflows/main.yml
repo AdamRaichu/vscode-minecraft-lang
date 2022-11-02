@@ -1,16 +1,19 @@
 name: Package Extension
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   workflow_dispatch:
-
+    inputs:
+      command:
+        description: "Full or Pre?"
+        required: true
+        default: "vsce package --target web"
+        type: choice
+        options:
+          - "vsce package --target web"
+          - "vsce package --target web --pre-release"
 jobs:
   build:
     runs-on: windows-latest
-
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: package with vsce
         run: |
