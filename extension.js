@@ -229,6 +229,38 @@ var index1 = {
     "`verification` contains error messages that occur when MC can't verify user license",
   autosave: "`autosave` contains informative keys relating to autosaving",
   xbox: "`xbox` is probably related to xbox in some way",
+  safety: "`safety` seems to contain chat mute messages",
+  authserver: "`authserver` texts seem to relate to ",
+  platform: "`platform.model.unknown` = UNKNOWN",
+  compliance: "`compliance` seems to have warning in case of exessive gaming",
+  packdiscoveryerror: "> resource pack validation errors",
+  packupgradewarning:
+    "`packupgradewarning` seems to have warnings in case of invalid `.mcpack` import attempt",
+  pack: "`pack` contains default texts for authors of packs",
+  manifestvalidation:
+    "`manifestvalidation` has texts for the status messages for resource and behavior packs",
+  uiPackError: "`uiPackError` contains several resource pack errors",
+  jsonValidationError:
+    "`jsonValidationError` contains several JSON parse errors",
+  serverUI: "`serverUI` contains errors for creating forms",
+  content: "`content` messages pertain to importing packs and worlds",
+  worldTemplate:
+    "`worldTemplate` contains names of packs which are built in (Festive Mash-up 2016, Greek Mythology Mash-up, etc.)",
+  eduTemplateWorld: "Similar to `worldTemplate` but for EE",
+  worldConversionComplete:
+    "`worldConversionComplete` appears to contain texts for converting worlds",
+  tips: '`tips` contains the text that is shown when a world is loading. For example, "Do people actually read these?"',
+  splitscreen:
+    "`splitscreen` contains messages relating to players joining a world in splitscreen mode",
+  usermanagement: "`usermanagement.changeUser` = Change User",
+  lateJoinScreen: "`lateJoinScreen.waitingForUserReady` = Getting things ready",
+  storage_migration: "`storage_migration` keys relate to migrating storage",
+  trade: "`trade` contains labels in villager trade menus",
+  contentlog:
+    "`contentlog` contains labels for buttons in content log settings",
+  client:
+    "`client` has update names for 1.0-1.5 and 1.11. I don't know what they are there for.",
+  cloud_upload: "`cloud_upload`",
 };
 
 vscode.languages.registerHoverProvider("mc-lang", {
