@@ -260,7 +260,23 @@ var index1 = {
     "`contentlog` contains labels for buttons in content log settings",
   client:
     "`client` has update names for 1.0-1.5 and 1.11. I don't know what they are there for.",
-  cloud_upload: "`cloud_upload`",
+  cloud_upload:
+    "`cloud_upload` seems to have support messages for uploading a world to Mojang Player Support",
+  dr: "`dr` contains marketplace texts",
+  onlinePlay:
+    "`onlinePlay` contains the messages warning players that online play is not rated",
+  copyCoordinates:
+    "`copyCoordinates` contains texts shown in copy coordinate UI",
+  emotes: "`emotes` contains texts shown in emote selection menu",
+  dynamicPackage: "> Google Play APK Expansion file downloader notification",
+  gameTest: "`gameTest` contains messages relating to gametest debug messages",
+  script: "`script` contains messages relating to gametest debug messages",
+  clientscript:
+    "`clientscript` contains messages relating to gametest debug messages",
+  world_recovery:
+    "`world_recovery` contains messages shown when recovering worlds",
+  osk: "`osk` seems to contain messages relating to truncated texts",
+  gathering: "`gathering` seems to contain Minecraft Live messages",
 };
 
 vscode.languages.registerHoverProvider("mc-lang", {
