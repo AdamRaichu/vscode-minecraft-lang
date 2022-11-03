@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Keybinding highlighting
 
+## [2.0.2] - 2022-11-3
+
+Fixed:
+
+- Broken comment highlighting. ([#4](https://github.com/AdamRaichu/vscode-minecraft-lang/issues/4))
+
 ## [2.0.0] - 2022-11-2
 
 Added:
@@ -17,7 +23,7 @@ Added:
 
 Fixed:
 
-- Broken highlighting of `<>` bracket pairs. ([#1])
+- Broken highlighting of `<>` bracket pairs. ([#1](https://github.com/AdamRaichu/vscode-minecraft-lang/issues/1))
 
 ## [1.0.0] - 2022-10-28
 
