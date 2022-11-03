@@ -32,12 +32,17 @@
     "values": {
       "begin": "\\=",
       "end": "$|(?=#)",
-      "name": "variable.parameter.values.mc-lang",
+      "name": "keyword.operator.new.mc-lang",
       "patterns": [
         {
           "begin": "<",
           "end": ">|$",
           "name": "entity.name.function.values.mc-lang"
+        },
+        {
+          "begin": ":_",
+          "end": ":",
+          "name": "constant.character.escape"
         },
         {
           "match": "§[0-9a-gk-or]{1}",
