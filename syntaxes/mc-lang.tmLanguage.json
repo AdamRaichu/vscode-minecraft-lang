@@ -41,7 +41,7 @@
         },
         {
           "begin": ":_",
-          "end": ":",
+          "end": ":|$",
           "name": "constant.character.escape"
         },
         {
