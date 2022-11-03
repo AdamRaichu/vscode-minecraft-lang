@@ -21,7 +21,7 @@
     "keys": {
       "name": "entity.other.attribute-name.keys.mc-lang",
       "begin": "^",
-      "end": "[A-Za-z0-9](?==)|#",
+      "end": "[A-Za-z0-9](?==)|(?=#)",
       "patterns": [
         {
           "match": "[A-Za-z0-9]+:[A-Za-z0-9]+(?=\\.)",
