@@ -14,7 +14,8 @@
   ],
   "repository": {
     "comment": {
-      "match": "^#(.*)$|^//(.*)$",
+      "begin": "#",
+      "end": "$",
       "name": "comment.line.number-sign.mc-lang"
     },
     "keys": {
