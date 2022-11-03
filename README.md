@@ -3,3 +3,21 @@
 This is an extension which colorizes the `.lang`
 files that Minecraft uses to store item and entity names,
 as well as menu labels.
+
+**Screenshot (Abyss Theme)**
+![Demo Screenshot](screenshots/demo-abyss.png)
+
+## Usage
+
+Install from the vscode web Extensions view.
+Search `AdamRaichu.minecraft-lang`.
+
+[View this extension](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang) on the vscode marketplace.
+
+## Known Issues
+
+You can view issues [here](https://github.com/AdamRaichu/vscode-minecraft-lang/issues).
+
+## Changelog
+
+You can view the changelog [here](CHANGELOG.md).

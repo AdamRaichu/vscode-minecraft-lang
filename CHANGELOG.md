@@ -7,9 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Hover hints in code
+- Keybinding highlighting
 
-## [1.0.0] - 2022-10/28
+## [2.0.0] - 2022-11-2
+
+Added:
+
+- Hover hints now appear in code for top-level keys.
+
+Fixed:
+
+- Broken highlighting of `<>` bracket pairs. ([#1])
+
+## [1.0.0] - 2022-10-28
 
 Initial release
 
