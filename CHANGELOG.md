@@ -9,11 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Currently no planned features.
 
-## [2.1.0] - 2022-11-3
+## [2.1.2] - 2022-11-9
 
 Added:
 
 - Keybinding variables are now highlighted like escape characters (such as `\n`).
+- Extension should now be available on other platforms, not just web interface. ([#9](https://github.com/AdamRaichu/vscode-minecraft-lang/issues/9))
 
 ## [2.0.2] - 2022-11-3
 
