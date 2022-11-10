@@ -8,6 +8,7 @@ on:
         default: "vsce package --target web"
         type: choice
         options:
+          - "vsce package"
           - "vsce package --target web"
           - "vsce package --target web --pre-release"
 jobs:
