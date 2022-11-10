@@ -8,9 +8,8 @@ on:
         default: "vsce package --target web"
         type: choice
         options:
+          - "vsce package"
           - "vsce package --pre-release"
-          - "vsce package --target web"
-          - "vsce package --target web --pre-release"
 jobs:
   build:
     runs-on: windows-latest
