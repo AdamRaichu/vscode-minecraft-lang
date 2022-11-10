@@ -1,4 +1,12 @@
-# Minecraft .lang Colorizer
+# Minecraft .lang Colorizer <!-- markdownlint-disable MD033 -->
+
+<div align="center">
+
+[![GitHub issues](https://img.shields.io/github/issues/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/issues)
+[![GitHub stars](https://img.shields.io/github/stars/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/stargazers)
+[![GitHub license](https://img.shields.io/github/license/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/blob/main/LICENSE)
+
+</div>
 
 This is an extension which colorizes the `.lang`
 files that Minecraft uses to store item and entity names,
