@@ -18,7 +18,7 @@ as well as menu labels.
 ## Usage
 
 Install from the vscode web Extensions view.
-Search `AdamRaichu.minecraft-lang`.
+Search `adamraichu.minecraft-lang`.
 
 [View this extension](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang) on the vscode marketplace.
 
