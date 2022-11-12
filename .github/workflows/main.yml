@@ -5,7 +5,7 @@ on:
       command:
         description: "Full or Pre?"
         required: true
-        default: "vsce package --target web"
+        default: "vsce package"
         type: choice
         options:
           - "vsce package"
