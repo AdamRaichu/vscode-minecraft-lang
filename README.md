@@ -29,3 +29,7 @@ You can view issues [here](https://github.com/AdamRaichu/vscode-minecraft-lang/i
 ## Changelog
 
 You can view the changelog [here](CHANGELOG.md).
+
+## See Also
+
+If you are using this extension, you should check out [Zip Extracter](https://github.com/AdamRaichu/vscode-zip-viewer), an extension for unzipping zipped files.
