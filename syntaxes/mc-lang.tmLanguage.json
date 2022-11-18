@@ -45,7 +45,8 @@
           "name": "constant.character.escape"
         },
         {
-          "match": "§0",
+          "begin": "§0",
+          "end": "§[0-9a-gr]{1}|$",
           "name": "entity.name.function.format.0.mc-lang"
         },
         {

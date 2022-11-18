@@ -1,6 +1,6 @@
 # This is a comment
 action.hint.exit.console.boat=Press :_input_key.jump: to exit the boat#This is another comment
-action.hint.exit.console.minecart=Press :_input_key.jump: to exit §0the §rminecart
+action.hint.exit.console.minecart=Press :_input_key.jump: to exit §0the §1§rminecart
 action.hint.exit.console.pig=Press :_input_key.sneak: to dismount
 action.hint.exit.console.horse=Press :_input_key.sneak: to dismount
 action.hint.exit.console.strider=Press :_input_key.sneak: to dismount

@@ -1,0 +1,18 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.function.format.0.mc-lang",
+        "settings": {
+          "foreground": "#000000"
+        }
+      },
+      {
+        "scope": "entity.name.function.format.1.mc-lang",
+        "settings": {
+          "foreground": "#0000aa"
+        }
+      }
+    ]
+  }
+}
