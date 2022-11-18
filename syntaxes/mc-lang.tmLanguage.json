@@ -10,6 +10,9 @@
     },
     {
       "include": "#values"
+    },
+    {
+      "include": "#formatters"
     }
   ],
   "repository": {
