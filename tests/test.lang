@@ -1,9 +1,11 @@
-## Comments can be added anywhere on a valid line by starting with '##'
-##
-## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
-## comment on the same line, use TABs.
-accessibility.disableTTS=Text To Speech disabled
-accessibility.enableTTS=Text To Speech enabled
-
-## Translator note:
-## This section of phrases will be given audibly to the user using text to speech
+# This is a comment
+action.hint.exit.console.boat=Press :_input_key.jump: to exit the boat#This is another comment
+action.hint.exit.console.minecart=Press :_input_key.jump: to exit §0the §rminecart
+action.hint.exit.console.pig=Press :_input_key.sneak: to dismount
+action.hint.exit.console.horse=Press :_input_key.sneak: to dismount
+action.hint.exit.console.strider=Press :_input_key.sneak: to dismount
+action.hint.exit.console.donkey=Press :_input_key.sneak: to dismount
+action.hint.exit.console.mule=Press :_input_key.sneak: to dismount
+action.hint.exit.console.llama=Press :_input_key.sneak: to dismount
+action.hint.exit.console.trader_llama=Press :_input_key.sneak: to dismount
+action.hint.exit.console.skeleton_horse=Press :_input_key.sneak: to dismount

@@ -45,23 +45,12 @@
           "name": "constant.character.escape"
         },
         {
-          "begin": "§",
-          "end": "(?<=§)[0-9a-gk-or]{1}",
-          "name": "entity.name.function.mc-lang",
-          "patterns": [
-            {
-              "match": "§0",
-              "name": "format.0.mc-lang"
-            },
-            {
-              "match": "§1",
-              "name": "format.1.mc-lang"
-            },
-            {
-              "match": "§2",
-              "name": "format.2.mc-lang"
-            }
-          ]
+          "match": "§0",
+          "name": "entity.name.function.format.0.mc-lang"
+        },
+        {
+          "match": "§1",
+          "name": "entity.name.function.format.1.mc-lang"
         },
         {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
