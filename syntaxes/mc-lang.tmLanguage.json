@@ -50,8 +50,24 @@
           "name": "entity.name.function.format.0.mc-lang"
         },
         {
-          "match": "§1",
+          "begin": "§1",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
           "name": "entity.name.function.format.1.mc-lang"
+        },
+        {
+          "begin": "§2",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.2.mc-lang"
+        },
+        {
+          "begin": "§3",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.3.mc-lang"
+        },
+        {
+          "begin": "§4",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.4.mc-lang"
         },
         {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
