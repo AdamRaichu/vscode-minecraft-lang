@@ -10,9 +10,6 @@
     },
     {
       "include": "#values"
-    },
-    {
-      "include": "#formatters"
     }
   ],
   "repository": {
@@ -36,7 +33,6 @@
       "begin": "\\=",
       "end": "$|(?=#)",
       "name": "keyword.operator.new.mc-lang",
-      "include": "#formatters",
       "patterns": [
         {
           "begin": "<",
@@ -49,154 +45,127 @@
           "name": "constant.character.escape"
         },
         {
+          "begin": "§0",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.0.mc-lang"
+        },
+        {
+          "begin": "§1",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.1.mc-lang"
+        },
+        {
+          "begin": "§2",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.2.mc-lang"
+        },
+        {
+          "begin": "§3",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.3.mc-lang"
+        },
+        {
+          "begin": "§4",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.4.mc-lang"
+        },
+        {
+          "begin": "§5",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.5.mc-lang"
+        },
+        {
+          "begin": "§6",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.6.mc-lang"
+        },
+        {
+          "begin": "§7",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.7.mc-lang"
+        },
+        {
+          "begin": "§8",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.8.mc-lang"
+        },
+        {
+          "begin": "§9",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.9.mc-lang"
+        },
+        {
+          "begin": "§a",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.a.mc-lang"
+        },
+        {
+          "begin": "§b",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.b.mc-lang"
+        },
+        {
+          "begin": "§c",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.c.mc-lang"
+        },
+        {
+          "begin": "§d",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.d.mc-lang"
+        },
+        {
+          "begin": "§e",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.e.mc-lang"
+        },
+        {
+          "begin": "§f",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.f.mc-lang"
+        },
+        {
+          "begin": "§g",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.g.mc-lang"
+        },
+        {
+          "begin": "§k",
+          "end": "(?=(§r|$))",
+          "name": "entity.name.function.format.k.mc-lang"
+        },
+        {
+          "begin": "§l",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.l.mc-lang"
+        },
+        {
+          "begin": "§m",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.m.mc-lang"
+        },
+        {
+          "begin": "§n",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.n.mc-lang"
+        },
+        {
+          "begin": "§o",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.o.mc-lang"
+        },
+        {
+          "begin": "§r",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.r.mc-lang"
+        },
+        {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
           "name": "entity.name.tag.values.mc-lang"
         },
         {
           "match": ".",
           "name": "string.mc-lang"
-        }
-      ]
-    },
-    "formatters": {
-      "patterns": [
-        {
-          "begin": "§0",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.0.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§1",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.1.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§2",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.2.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§3",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.3.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§4",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.4.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§5",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.5.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§6",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.6.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§7",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.7.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§8",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.8.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§9",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.9.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§a",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.a.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§b",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.b.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§c",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.c.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§d",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.d.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§e",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.e.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§f",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.f.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§g",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.g.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§k",
-          "end": "(?=(§r|$))",
-          "name": "entity.name.function.format.k.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§l",
-          "end": "(?=(§[0-9a-gkr]{1}|$))",
-          "name": "entity.name.function.format.l.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§m",
-          "end": "(?=(§[0-9a-gkr]{1}|$))",
-          "name": "entity.name.function.format.m.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§n",
-          "end": "(?=(§[0-9a-gkr]{1}|$))",
-          "name": "entity.name.function.format.n.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§o",
-          "end": "(?=(§[0-9a-gkr]{1}|$))",
-          "name": "entity.name.function.format.o.mc-lang",
-          "include": "#formatters"
-        },
-        {
-          "begin": "§r",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.r.mc-lang",
-          "include": "#formatters"
         }
       ]
     }
