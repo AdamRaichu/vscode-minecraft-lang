@@ -2,6 +2,10 @@
 
 <div align="center">
 
+[![VSCode Marketplace Version](https://vsmarketplacebadge.apphb.com/version/adamraichu.minecraft-lang.svg?color=00008b)](https://vsmarketplacebadge.apphb.com/version/adamraichu.minecraft-lang.svg)
+[![Install Count](https://vsmarketplacebadge.apphb.com/installs/adamraichu.minecraft-lang.svg?color=00008b)](https://vsmarketplacebadge.apphb.com/installs/adamraichu.minecraft-lang.svg)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating/adamraichu.minecraft-lang.svg?color=00008b)](https://vsmarketplacebadge.apphb.com/rating/adamraichu.minecraft-lang.svg)
+
 [![GitHub issues](https://img.shields.io/github/issues/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/issues)
 [![GitHub stars](https://img.shields.io/github/stars/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/stargazers)
 [![GitHub license](https://img.shields.io/github/license/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/blob/main/LICENSE)
