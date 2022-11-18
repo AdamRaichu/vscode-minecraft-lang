@@ -70,6 +70,96 @@
           "name": "entity.name.function.format.4.mc-lang"
         },
         {
+          "begin": "§5",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.5.mc-lang"
+        },
+        {
+          "begin": "§6",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.6.mc-lang"
+        },
+        {
+          "begin": "§7",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.7.mc-lang"
+        },
+        {
+          "begin": "§8",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.8.mc-lang"
+        },
+        {
+          "begin": "§9",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.9.mc-lang"
+        },
+        {
+          "begin": "§a",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.a.mc-lang"
+        },
+        {
+          "begin": "§b",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.b.mc-lang"
+        },
+        {
+          "begin": "§c",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.c.mc-lang"
+        },
+        {
+          "begin": "§d",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.d.mc-lang"
+        },
+        {
+          "begin": "§e",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.e.mc-lang"
+        },
+        {
+          "begin": "§f",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.f.mc-lang"
+        },
+        {
+          "begin": "§g",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.g.mc-lang"
+        },
+        {
+          "begin": "§k",
+          "end": "(?=(§r|$))",
+          "name": "entity.name.function.format.k.mc-lang"
+        },
+        {
+          "begin": "§l",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.l.mc-lang"
+        },
+        {
+          "begin": "§m",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.m.mc-lang"
+        },
+        {
+          "begin": "§n",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.n.mc-lang"
+        },
+        {
+          "begin": "§o",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.o.mc-lang"
+        },
+        {
+          "begin": "§r",
+          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "name": "entity.name.function.format.r.mc-lang"
+        },
+        {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
           "name": "entity.name.tag.values.mc-lang"
         },
