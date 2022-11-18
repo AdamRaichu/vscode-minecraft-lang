@@ -1,6 +1,6 @@
 const vscode = require("vscode");
 
-export function activate() {
+/* export*/ function activate() {
   var index1 = {
     // Contains top level keys (entity, chat, action, etc...)
     accessibility: "For text pertaining to text-to-speech translation",
@@ -302,4 +302,4 @@ export function activate() {
     },
   });
 }
-export function deactivate() {}
+// export function deactivate() {}
