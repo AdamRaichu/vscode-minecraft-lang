@@ -45,7 +45,6 @@
           "name": "constant.character.escape"
         },
         {
-          // "match": "§[0-9a-gk-or]{1}",
           "begin": "§",
           "end": "(?<=§)[0-9a-gk-or]{1}",
           "name": "entity.name.function.mc-lang",
