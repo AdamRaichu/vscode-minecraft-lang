@@ -33,6 +33,7 @@
       "begin": "\\=",
       "end": "$|(?=#)",
       "name": "keyword.operator.new.mc-lang",
+      "include": "$self",
       "patterns": [
         {
           "begin": "<",
@@ -136,22 +137,22 @@
         },
         {
           "begin": "§l",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "end": "(?=(§[0-9a-gkr]{1}|$))",
           "name": "entity.name.function.format.l.mc-lang"
         },
         {
           "begin": "§m",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "end": "(?=(§[0-9a-gkr]{1}|$))",
           "name": "entity.name.function.format.m.mc-lang"
         },
         {
           "begin": "§n",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "end": "(?=(§[0-9a-gkr]{1}|$))",
           "name": "entity.name.function.format.n.mc-lang"
         },
         {
           "begin": "§o",
-          "end": "(?=(§[0-9a-gr]{1}|$))",
+          "end": "(?=(§[0-9a-gkr]{1}|$))",
           "name": "entity.name.function.format.o.mc-lang"
         },
         {

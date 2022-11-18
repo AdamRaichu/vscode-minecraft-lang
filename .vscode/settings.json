@@ -2,6 +2,12 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
+        "scope": "string.mc-lang",
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
         "scope": "entity.name.function.format.0.mc-lang",
         "settings": {
           "foreground": "#000000"
@@ -98,6 +104,12 @@
         }
       },
       {
+        "scope": "entity.name.function.format.g.mc-lang",
+        "settings": {
+          "foreground": "#ddd605"
+        }
+      },
+      {
         "scope": "entity.name.function.format.k.mc-lang",
         "settings": {
           "fontStyle": "italic bold underline strikethrough"
@@ -130,7 +142,8 @@
       {
         "scope": "entity.name.function.format.r.mc-lang",
         "settings": {
-          "fontStyle": ""
+          "fontStyle": "",
+          "foreground": "#ffffff"
         }
       }
     ]
