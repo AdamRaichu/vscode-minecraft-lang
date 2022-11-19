@@ -292,7 +292,7 @@ vscode.languages.registerHoverProvider("mc-lang", {
       }
     } else if (word.includes("§")) {
       return new vscode.Hover(
-        "Note: The styling of `§` operators is a work in progress, but they should still all have an effect in-game."
+        "Note: The styling of `§` operators is a work in progress, but they should still all have an effect in-game.\n\nIn Java Edition, if a color code is used after a formatting code, the formatting code is disabled beyond the color code point. Therefore, when using a color code in tandem with a formatting code, ensure the color code is used first and reuse the formatting code when changing colors.\n\nIn Bedrock Edition, formatting codes persist after a color code. Furthermore, if an obfuscated code is used and a reset code is not used before the end of the line, the client GUI continues to obfuscate text past the MOTD and into the version number display."
       );
     }
   },
