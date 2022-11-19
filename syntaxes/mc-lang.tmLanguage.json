@@ -142,7 +142,12 @@
         {
           "begin": "§l",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.l.mc-lang"
+          "name": "entity.name.function.format.l.mc-lang",
+          "patterns": [
+            {
+              "include": "source.mc-lang#values"
+            }
+          ]
         },
         {
           "begin": "§m",
