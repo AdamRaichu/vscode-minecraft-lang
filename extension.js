@@ -452,8 +452,10 @@ vscode.commands.registerCommand(
   "AdamRaichu.minecraftLang.addStylingToWorkspace",
   function () {
     var uri = vscode.Uri.file(vscode.workspace.name + ".vscode/settings.json");
+    console.log(uri);
     vscode.workspace.fs.readFile(uri).then(
       function (content) {
+        console.log(content);
         content = new TextDecoder().decode(content);
         console.log(content);
         var config = JSON.parse(content);
@@ -468,7 +470,9 @@ vscode.commands.registerCommand(
           new TextEncoder().encode(JSON.stringify(config, null, 2))
         );
       },
-      function (error) {}
+      function (error) {
+        console.error(error);
+      }
     );
   }
 );
