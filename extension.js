@@ -451,6 +451,7 @@ var colorSettings = {
 vscode.commands.registerCommand(
   "AdamRaichu.minecraftLang.addStylingToWorkspace",
   function () {
+    console.log(vscode.workspace.name);
     var uri = vscode.Uri.file(vscode.workspace.name + ".vscode/settings.json");
     console.log(uri);
     vscode.workspace.fs.readFile(uri).then(
