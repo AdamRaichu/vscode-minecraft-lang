@@ -132,7 +132,12 @@
         {
           "begin": "§k",
           "end": "(?=(§r|$))",
-          "name": "format.k.mc-lang"
+          "name": "entity.name.function.format.k.mc-lang",
+          "patterns": [
+            {
+              "include": "#values"
+            }
+          ]
         },
         {
           "begin": "§l",
