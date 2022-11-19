@@ -55,7 +55,7 @@
     "commands": [
       {
         "command": "AdamRaichu.minecraftLang.addStylingToWorkspace",
-        "title": "MC Lang: Add § format styling to workspace setings",
+        "title": "Minecraft Lang: Add § format styling to workspace setings",
         "shortTitle": "Add § styling"
       }
     ]
