@@ -135,7 +135,7 @@
           "name": "entity.name.function.format.k.mc-lang",
           "patterns": [
             {
-              "include": "#values"
+              "include": "$self"
             }
           ]
         },
