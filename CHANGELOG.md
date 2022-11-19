@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Currently no planned features.
 
+## [2.2.0] - 2022-11-19
+
+Added:
+
+- Extension now contributes a default setting to `editor.tokenColorCustomizations.textMateRules`, which causes `§` format to be styled automatically. In case you already customize this setting, the extension's code is below.
+
+```JSON
+{"editor.tokenColorCustomizations":{"textMateRules":[{"scope":"string.mc-lang","settings":{"foreground":"#ffffff"}},{"scope":"entity.name.function.format.0.mc-lang","settings":{"foreground":"#000000"}},{"scope":"entity.name.function.format.1.mc-lang","settings":{"foreground":"#0000aa"}},{"scope":"entity.name.function.format.2.mc-lang","settings":{"foreground":"#00aa00"}},{"scope":"entity.name.function.format.3.mc-lang","settings":{"foreground":"#00aaaa"}},{"scope":"entity.name.function.format.4.mc-lang","settings":{"foreground":"#aa0000"}},{"scope":"entity.name.function.format.5.mc-lang","settings":{"foreground":"#aa00aa"}},{"scope":"entity.name.function.format.6.mc-lang","settings":{"foreground":"#ffaa00"}},{"scope":"entity.name.function.format.7.mc-lang","settings":{"foreground":"#aaaaaa"}},{"scope":"entity.name.function.format.8.mc-lang","settings":{"foreground":"#555555"}},{"scope":"entity.name.function.format.9.mc-lang","settings":{"foreground":"#5555ff"}},{"scope":"entity.name.function.format.a.mc-lang","settings":{"foreground":"#55ff55"}},{"scope":"entity.name.function.format.b.mc-lang","settings":{"foreground":"#55ffff"}},{"scope":"entity.name.function.format.c.mc-lang","settings":{"foreground":"#ff5555"}},{"scope":"entity.name.function.format.d.mc-lang","settings":{"foreground":"#ff55ff"}},{"scope":"entity.name.function.format.e.mc-lang","settings":{"foreground":"#ffff55"}},{"scope":"entity.name.function.format.f.mc-lang","settings":{"foreground":"#ffffff"}},{"scope":"entity.name.function.format.g.mc-lang","settings":{"foreground":"#ddd605"}},{"scope":"entity.name.function.format.k.mc-lang","settings":{"fontStyle":"italic bold underline strikethrough"}},{"scope":"entity.name.function.format.l.mc-lang","settings":{"fontStyle":"bold"}},{"scope":"entity.name.function.format.m.mc-lang","settings":{"fontStyle":"strikethrough"}},{"scope":"entity.name.function.format.n.mc-lang","settings":{"fontStyle":"underline"}},{"scope":"entity.name.function.format.o.mc-lang","settings":{"fontStyle":"italic"}},{"scope":"entity.name.function.format.r.mc-lang","settings":{"fontStyle":"","foreground":"#ffffff"}}]}}
+```
+
 ## [2.1.2] - 2022-11-9
 
 Added:
