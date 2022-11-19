@@ -290,6 +290,10 @@ vscode.languages.registerHoverProvider("mc-lang", {
       } else {
         return new vscode.Hover("No information available");
       }
+    } else if (word.includes("§")) {
+      return new vscode.Hover(
+        "Note: The styling of `§` operators is a work in progress, but they should still all have an effect in-game."
+      );
     }
   },
 });
