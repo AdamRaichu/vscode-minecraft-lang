@@ -26,7 +26,8 @@
   "browser": "/extension.js",
   "main": "/main.js",
   "activationEvents": [
-    "onLanguage:mc-lang"
+    "onLanguage:mc-lang",
+    "onCommand:AdamRaichu.minecraftLang.addStylingToWorkspace"
   ],
   "engines": {
     "vscode": "^1.63.0"
