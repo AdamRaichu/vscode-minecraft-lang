@@ -451,8 +451,12 @@ var colorSettings = {
 vscode.commands.registerCommand(
   "AdamRaichu.minecraftLang.addStylingToWorkspace",
   function () {
-    var config = vscode.workspace.getConfiguration();
+    var config = vscode.workspace.getConfiguration("editor");
     console.log(config);
-    config.update("editor.tokenColorCustomizations.textMateRules", colorSettings.textMateRules, vscode.ConfigurationTarget.Workspace);
+    config.update(
+      "tokenColorCustomizations.textMateRules",
+      colorSettings.textMateRules,
+      vscode.ConfigurationTarget.Workspace
+    );
   }
 );
