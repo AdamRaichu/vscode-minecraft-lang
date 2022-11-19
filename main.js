@@ -306,4 +306,5 @@ const vscode = require("vscode");
     },
   });
 }
+activate();
 // export function deactivate() {}
