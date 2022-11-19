@@ -22,7 +22,7 @@
     "color": "#1f2227",
     "theme": "dark"
   },
-  "version": "2.1.3",
+  "version": "2.2.0",
   "browser": "/extension.js",
   "main": "/main.js",
   "activationEvents": [
@@ -49,6 +49,13 @@
         "language": "mc-lang",
         "scopeName": "source.mc-lang",
         "path": "./syntaxes/mc-lang.tmLanguage.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "AdamRaichu.minecraftLang.addStylingToWorkspace",
+        "title": "MC Lang: Add § format styling to workspace setings",
+        "shortTitle": "Add § styling"
       }
     ]
   }
