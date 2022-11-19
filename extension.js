@@ -450,30 +450,5 @@ var colorSettings = {
 
 vscode.commands.registerCommand(
   "AdamRaichu.minecraftLang.addStylingToWorkspace",
-  function () {
-    console.log(vscode.workspace.name);
-    var uri = vscode.Uri.file(vscode.workspace.name + ".vscode/settings.json");
-    console.log(uri);
-    vscode.workspace.fs.readFile(uri).then(
-      function (content) {
-        console.log(content);
-        content = new TextDecoder().decode(content);
-        console.log(content);
-        var config = JSON.parse(content);
-        var key = "editor.tokenColorCustomizations";
-        if (typeof config[key] === "undefined") {
-          config[key] = colorSettings;
-        } else if (typeof config[key].textMateRules === "undefined") {
-          config[key].textMateRules = colorSettings.textMateRules;
-        }
-        vscode.workspace.fs.writeFile(
-          uri,
-          new TextEncoder().encode(JSON.stringify(config, null, 2))
-        );
-      },
-      function (error) {
-        console.error(error);
-      }
-    );
-  }
+  function () {}
 );
