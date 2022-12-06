@@ -2,9 +2,10 @@
 
 <div align="center">
 
-[![VSCode Marketplace Version](https://vsmarketplacebadge.apphb.com/version/adamraichu.minecraft-lang.svg?color=00008b)](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang)
-[![Install Count](https://vsmarketplacebadge.apphb.com/installs/adamraichu.minecraft-lang.svg?color=00008b)](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating/adamraichu.minecraft-lang.svg?color=00008b)](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang&ssr=false#review-details)
+[![Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/adamraichu.minecraft-lang?color=%2300008b&logo=visual%20studio%20code&logoColor=%23007ACC)](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang)
+[![VSCode Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/adamraichu.minecraft-lang?color=00008b&logo=Visual%20Studio%20Code&logoColor=%23007ACC)](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang)
+[![Install Count](https://img.shields.io/visual-studio-marketplace/i/adamraichu.minecraft-lang?color=darkblue&label=Install%20Count&logo=visual%20studio%20code&logoColor=%23007ACC)](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang)
+[![Rating](https://img.shields.io/visual-studio-marketplace/stars/adamraichu.minecraft-lang?color=darkblue&label=Rating&logo=visual%20studio%20code&logoColor=%23007ACC)](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.minecraft-lang&ssr=false#review-details)
 
 [![GitHub issues](https://img.shields.io/github/issues/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/issues)
 [![GitHub stars](https://img.shields.io/github/stars/AdamRaichu/vscode-minecraft-lang)](https://github.com/AdamRaichu/vscode-minecraft-lang/stargazers)
