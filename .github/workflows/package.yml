@@ -18,9 +18,7 @@ jobs:
         name: Checkout repository
       - name: package with vsce
         run: |
-          npm i
           npm i -g @vscode/vsce
-          npm run build
           ${{ inputs.command }}
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.1
