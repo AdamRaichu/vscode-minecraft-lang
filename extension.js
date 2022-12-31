@@ -1,4 +1,6 @@
 const vscode = require("vscode");
+
+console.log("extension.js is present in mclang test");
 var index1 = {
   // Contains top level keys (entity, chat, action, etc...)
   accessibility: "For text pertaining to text-to-speech translation",
