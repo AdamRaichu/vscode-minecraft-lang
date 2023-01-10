@@ -35,7 +35,7 @@
       "name": "keyword.operator.new.mc-lang",
       "patterns": [
         {
-          "begin": "<",
+          "begin": "<(?=[A-Za-z0-9 :]+>)",
           "end": ">|$",
           "name": "entity.name.function.values.mc-lang"
         },
