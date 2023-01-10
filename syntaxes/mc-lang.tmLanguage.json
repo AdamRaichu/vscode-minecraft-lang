@@ -275,7 +275,7 @@
           ]
         },
         {
-          "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh]",
+          "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh0-9]",
           "name": "entity.name.tag.values.mc-lang"
         },
         {
