@@ -206,7 +206,7 @@ var index1 = {
   gathering: "`gathering` seems to contain Minecraft Live messages",
 };
 
-vscode.languages.registerHoverProvider("mc-lang", {
+vscode.languages.registerHoverProvider("lang", {
   provideHover(document, position, token) {
     var word = document.getText(document.getWordRangeAtPosition(position));
     var line = document.lineAt(position);

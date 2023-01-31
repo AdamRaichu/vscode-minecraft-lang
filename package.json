@@ -26,7 +26,7 @@
   "browser": "/extension.js",
   "main": "/main.js",
   "activationEvents": [
-    "onLanguage:mc-lang"
+    "onLanguage:lang"
   ],
   "engines": {
     "vscode": "^1.63.0"
@@ -34,7 +34,7 @@
   "contributes": {
     "languages": [
       {
-        "id": "mc-lang",
+        "id": "lang",
         "aliases": [
           "lang"
         ],
@@ -46,154 +46,154 @@
     ],
     "grammars": [
       {
-        "language": "mc-lang",
-        "scopeName": "source.mc-lang",
-        "path": "./syntaxes/mc-lang.tmLanguage.json"
+        "language": "lang",
+        "scopeName": "source.lang",
+        "path": "./syntaxes/lang.tmLanguage.json"
       }
     ],
     "configurationDefaults": {
       "editor.tokenColorCustomizations": {
         "textMateRules": [
           {
-            "scope": "string.mc-lang",
+            "scope": "string.lang",
             "settings": {
               "foreground": "#ffffff"
             }
           },
           {
-            "scope": "entity.name.function.format.0.mc-lang",
+            "scope": "entity.name.function.format.0.lang",
             "settings": {
               "foreground": "#000000"
             }
           },
           {
-            "scope": "entity.name.function.format.1.mc-lang",
+            "scope": "entity.name.function.format.1.lang",
             "settings": {
               "foreground": "#0000aa"
             }
           },
           {
-            "scope": "entity.name.function.format.2.mc-lang",
+            "scope": "entity.name.function.format.2.lang",
             "settings": {
               "foreground": "#00aa00"
             }
           },
           {
-            "scope": "entity.name.function.format.3.mc-lang",
+            "scope": "entity.name.function.format.3.lang",
             "settings": {
               "foreground": "#00aaaa"
             }
           },
           {
-            "scope": "entity.name.function.format.4.mc-lang",
+            "scope": "entity.name.function.format.4.lang",
             "settings": {
               "foreground": "#aa0000"
             }
           },
           {
-            "scope": "entity.name.function.format.5.mc-lang",
+            "scope": "entity.name.function.format.5.lang",
             "settings": {
               "foreground": "#aa00aa"
             }
           },
           {
-            "scope": "entity.name.function.format.6.mc-lang",
+            "scope": "entity.name.function.format.6.lang",
             "settings": {
               "foreground": "#ffaa00"
             }
           },
           {
-            "scope": "entity.name.function.format.7.mc-lang",
+            "scope": "entity.name.function.format.7.lang",
             "settings": {
               "foreground": "#aaaaaa"
             }
           },
           {
-            "scope": "entity.name.function.format.8.mc-lang",
+            "scope": "entity.name.function.format.8.lang",
             "settings": {
               "foreground": "#555555"
             }
           },
           {
-            "scope": "entity.name.function.format.9.mc-lang",
+            "scope": "entity.name.function.format.9.lang",
             "settings": {
               "foreground": "#5555ff"
             }
           },
           {
-            "scope": "entity.name.function.format.a.mc-lang",
+            "scope": "entity.name.function.format.a.lang",
             "settings": {
               "foreground": "#55ff55"
             }
           },
           {
-            "scope": "entity.name.function.format.b.mc-lang",
+            "scope": "entity.name.function.format.b.lang",
             "settings": {
               "foreground": "#55ffff"
             }
           },
           {
-            "scope": "entity.name.function.format.c.mc-lang",
+            "scope": "entity.name.function.format.c.lang",
             "settings": {
               "foreground": "#ff5555"
             }
           },
           {
-            "scope": "entity.name.function.format.d.mc-lang",
+            "scope": "entity.name.function.format.d.lang",
             "settings": {
               "foreground": "#ff55ff"
             }
           },
           {
-            "scope": "entity.name.function.format.e.mc-lang",
+            "scope": "entity.name.function.format.e.lang",
             "settings": {
               "foreground": "#ffff55"
             }
           },
           {
-            "scope": "entity.name.function.format.f.mc-lang",
+            "scope": "entity.name.function.format.f.lang",
             "settings": {
               "foreground": "#ffffff"
             }
           },
           {
-            "scope": "entity.name.function.format.g.mc-lang",
+            "scope": "entity.name.function.format.g.lang",
             "settings": {
               "foreground": "#ddd605"
             }
           },
           {
-            "scope": "entity.name.function.format.k.mc-lang",
+            "scope": "entity.name.function.format.k.lang",
             "settings": {
               "fontStyle": "italic bold underline strikethrough"
             }
           },
           {
-            "scope": "entity.name.function.format.l.mc-lang",
+            "scope": "entity.name.function.format.l.lang",
             "settings": {
               "fontStyle": "bold"
             }
           },
           {
-            "scope": "entity.name.function.format.m.mc-lang",
+            "scope": "entity.name.function.format.m.lang",
             "settings": {
               "fontStyle": "strikethrough"
             }
           },
           {
-            "scope": "entity.name.function.format.n.mc-lang",
+            "scope": "entity.name.function.format.n.lang",
             "settings": {
               "fontStyle": "underline"
             }
           },
           {
-            "scope": "entity.name.function.format.o.mc-lang",
+            "scope": "entity.name.function.format.o.lang",
             "settings": {
               "fontStyle": "italic"
             }
           },
           {
-            "scope": "entity.name.function.format.r.mc-lang",
+            "scope": "entity.name.function.format.r.lang",
             "settings": {
               "fontStyle": "",
               "foreground": "#ffffff"

@@ -1,6 +1,6 @@
 {
   "name": "Minecraft Lang",
-  "scopeName": "source.mc-lang",
+  "scopeName": "source.lang",
   "patterns": [
     {
       "include": "#comment"
@@ -16,28 +16,28 @@
     "comment": {
       "begin": "#",
       "end": "$",
-      "name": "comment.line.number-sign.mc-lang"
+      "name": "comment.line.number-sign.lang"
     },
     "keys": {
-      "name": "entity.other.attribute-name.keys.mc-lang",
+      "name": "entity.other.attribute-name.keys.lang",
       "begin": "^",
       "end": "[A-Za-z0-9](?==)|(?=#)",
       "patterns": [
         {
           "match": "[A-Za-z0-9]+:[A-Za-z0-9]+(?=\\.)",
-          "name": "variable.other.readwrite.mc-lang"
+          "name": "variable.other.readwrite.lang"
         }
       ]
     },
     "values": {
       "begin": "\\=",
       "end": "$|(?=#)",
-      "name": "keyword.operator.new.mc-lang",
+      "name": "keyword.operator.new.lang",
       "patterns": [
         {
           "begin": "<(?=[A-Za-z0-9 :]+>)",
           "end": ">|$",
-          "name": "entity.name.function.values.mc-lang"
+          "name": "entity.name.function.values.lang"
         },
         {
           "begin": ":_",
@@ -47,240 +47,240 @@
         {
           "begin": "§0",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.0.mc-lang",
+          "name": "entity.name.function.format.0.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§1",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.1.mc-lang",
+          "name": "entity.name.function.format.1.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§2",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.2.mc-lang",
+          "name": "entity.name.function.format.2.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§3",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.3.mc-lang",
+          "name": "entity.name.function.format.3.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§4",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.4.mc-lang",
+          "name": "entity.name.function.format.4.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§5",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.5.mc-lang",
+          "name": "entity.name.function.format.5.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§6",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.6.mc-lang",
+          "name": "entity.name.function.format.6.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§7",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.7.mc-lang",
+          "name": "entity.name.function.format.7.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§8",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.8.mc-lang",
+          "name": "entity.name.function.format.8.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§9",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.9.mc-lang",
+          "name": "entity.name.function.format.9.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§a",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.a.mc-lang",
+          "name": "entity.name.function.format.a.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§b",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.b.mc-lang",
+          "name": "entity.name.function.format.b.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§c",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.c.mc-lang",
+          "name": "entity.name.function.format.c.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§d",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.d.mc-lang",
+          "name": "entity.name.function.format.d.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§e",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.e.mc-lang",
+          "name": "entity.name.function.format.e.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§f",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.f.mc-lang",
+          "name": "entity.name.function.format.f.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§g",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.g.mc-lang",
+          "name": "entity.name.function.format.g.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§k",
           "end": "(?=(§r|$))",
-          "name": "entity.name.function.format.k.mc-lang",
+          "name": "entity.name.function.format.k.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§l",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.l.mc-lang",
+          "name": "entity.name.function.format.l.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§m",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.m.mc-lang",
+          "name": "entity.name.function.format.m.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§n",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.n.mc-lang",
+          "name": "entity.name.function.format.n.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§o",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.o.mc-lang",
+          "name": "entity.name.function.format.o.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "begin": "§r",
           "end": "(?=(§[0-9a-gr]{1}|$))",
-          "name": "entity.name.function.format.r.mc-lang",
+          "name": "entity.name.function.format.r.lang",
           "patterns": [
             {
-              "include": "source.mc-lang#values"
+              "include": "source.lang#values"
             }
           ]
         },
         {
           "match": "%([1-9]+\\$)?(\\d)*(\\.(\\d)+)?[dcbsfexh0-9]",
-          "name": "entity.name.tag.values.mc-lang"
+          "name": "entity.name.tag.values.lang"
         },
         {
           "match": ".",
-          "name": "string.mc-lang"
+          "name": "string.lang"
         }
       ]
     }
