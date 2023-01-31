@@ -32,7 +32,7 @@
     "values": {
       "begin": "\\=",
       "end": "$|(?=#)",
-      "name": "keyword.operator.new.lang",
+      "name": "key.value.lang",
       "patterns": [
         {
           "begin": "<(?=[A-Za-z0-9 :]+>)",
