@@ -22,7 +22,7 @@
     "color": "#1f2227",
     "theme": "dark"
   },
-  "version": "2.2.3",
+  "version": "2.2.4",
   "browser": "/extension.js",
   "main": "/main.js",
   "activationEvents": [
@@ -36,7 +36,7 @@
       {
         "id": "lang",
         "aliases": [
-          "lang"
+          "Minecraft Language File"
         ],
         "extensions": [
           "lang"
